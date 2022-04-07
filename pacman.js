@@ -69,7 +69,7 @@
         let pizza = document.createElement('img');
         ind++;
         pizza.setAttribute('id', `pizzaId${ind}`);
-        pizza.src = 'images/pizza.png';
+        pizza.src = 'images/Pizza.png';
         pizza.width = 50;
         pizza.style.position = 'absolute';
         let velocity = setToRandom(10); 
